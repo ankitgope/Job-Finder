@@ -17,10 +17,11 @@ const Navbar = () => {
               className="flex flex-shrink-0 items-center justify-center mr-4 "
               to="/"
             >
+              
               <img src={ReactLogo} alt="job logo" className="h-12 w-auto" />
-              <span className="hidden md:block text-white font-bold text-2xl ml-2">
+              <NavLink to="/" className="hidden md:block text-white font-bold text-2xl ml-2 ">
                 Job Finder
-              </span>
+              </NavLink>
             </NavLink>
           </div>
           <div className="md:ml-auto sm:ml-auto">

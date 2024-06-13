@@ -151,6 +151,7 @@ Line 36-->  we are doing conditional rendering
 *now we want in our home page we have only 3 job card for that*
 we do is 
 **we will add spinner later**
+copied spinner file from react sinner page 2nd link from git hub pages
 
 
 
