@@ -116,6 +116,7 @@ const JobListing = ({isHome=false}) => {
 making changes in here for the abve reusing case 
 
 *Next steps*
+*DATA fETCHING USING USEFFECT*
 
 **using jason.Server** 
 we want to fetch the data 
@@ -153,8 +154,18 @@ we do is
 **we will add spinner later**
 copied spinner file from react sinner page 2nd link from git hub pages
 
+**Adding Proxy**
+A proxy is an intermediary server that separates end users from the websites they browse. 
+Suppose sending letter in the hands of a child to your girfriend . (child as a proxy)
 
+so we make changes in *vit.config.js*
+in *server*
+proxy:{
+      '/api':{
+        target : 'http://localhost:8000',
+        changeOrigin: true,
+        rewrite:(path)=> path.replace(/^\/api/,''),
+      },
+    },
 
-
-
-
+*WE CAN USE **REACT SUSPENCE** WHICH ALLOWS REACT RENDER WHILE FETCHING --> WHAT ARE DOINF HERE IS FETCH ON RENDER BECAUSE WHEN WE RENDER IT HAS A SIDE EFFECT OF FETCHING THE DATA (as we used useEffect) BUT SUSPENSE WILL ALLOW YOU  RENDER WHILE FETCHING AND YOU BASICALLY BE PROVIDING A FALLBACK UI SUCH AS A SPINNER OR A LOADING TEXT WHAEVER IS PASSED AS A PROP OR AN ATTRIBUTE

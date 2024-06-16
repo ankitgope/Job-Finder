@@ -27,7 +27,7 @@ const JobListingCard = ({job}) => {
       <div className="p-4 flex flex-col lg:flex-row justify-between">
         <div>{job.location}</div>
         <Link
-          to={`/job/${job.description}`}
+          to={`/job/${job.id}`}
           className="h-[36px]  bg-indigo-500 hover:bg-indigo-600 text-white px-3 
                 py-2 rounded-lg text-center text-sm"
         >

@@ -46,8 +46,8 @@
       "id": "4",
       "title": "React Front-End Developer",
       "type": "Part-Time",
-      "description": "Join our team as a Part-Time Front-End Developer in beautiful Pheonix, AZ. We are looking for a self-motivated individual with a passion for creating engaging user experiences. This position offers flexible hours and the opportunity to work remotely.",
-      "location": "Pheonix, AZ",
+      "description": "Join our team as a Part-Time Front-End Developer in beautiful Phoenix, AZ. We are looking for a self-motivated individual with a passion for creating engaging user experiences. This position offers flexible hours and the opportunity to work remotely.",
+      "location": "Phoenix, AZ",
       "salary": "$60K - $70K",
       "company": {
         "name": "Alpha Elite",
@@ -82,6 +82,342 @@
         "description": "Port Solutions is a leading technology company specializing in software development and digital marketing. We are committed to providing our clients with cutting-edge solutions and our employees with a supportive and rewarding work environment.",
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "7",
+      "title": "React Developer",
+      "type": "Full-Time",
+      "description": "We are looking for a React Developer to join our growing team in San Francisco, CA. The ideal candidate will have experience with modern JavaScript frameworks and a passion for creating seamless user experiences.",
+      "location": "San Francisco, CA",
+      "salary": "$110K - $120K",
+      "company": {
+        "name": "TechGiant Inc.",
+        "description": "TechGiant Inc. is a global leader in technology solutions and services, committed to driving innovation and delivering exceptional value to our clients.",
+        "contactEmail": "hr@techgiant.com",
+        "contactPhone": "555-555-5556"
+      }
+    },
+    {
+      "id": "8",
+      "title": "Junior React Developer",
+      "type": "Full-Time",
+      "description": "Exciting opportunity for a Junior React Developer in Denver, CO. We are looking for a motivated individual with a basic understanding of front-end technologies and a desire to learn and grow.",
+      "location": "Denver, CO",
+      "salary": "$60K - $70K",
+      "company": {
+        "name": "StartUp Hub",
+        "description": "StartUp Hub is an incubator for emerging tech startups, providing resources and mentorship to help new companies succeed.",
+        "contactEmail": "jobs@startuphub.com",
+        "contactPhone": "555-555-5557"
+      }
+    },
+    {
+      "id": "9",
+      "title": "Senior React Native Developer",
+      "type": "Full-Time",
+      "description": "Join our dynamic team as a Senior React Native Developer in Austin, TX. We are looking for an experienced developer with a strong background in mobile development and a passion for creating high-quality apps.",
+      "location": "Austin, TX",
+      "salary": "$120K - $130K",
+      "company": {
+        "name": "Mobile Innovators",
+        "description": "Mobile Innovators is a leading mobile app development company, focused on creating innovative solutions for businesses worldwide.",
+        "contactEmail": "careers@mobileinnovators.com",
+        "contactPhone": "555-555-5558"
+      }
+    },
+    {
+      "id": "10",
+      "title": "React Developer",
+      "type": "Contract",
+      "description": "We are seeking a contract React Developer to work on a new project. The ideal candidate will have experience with React and be able to work independently to deliver high-quality code.",
+      "location": "Remote",
+      "salary": "$40/hr - $50/hr",
+      "company": {
+        "name": "Freelance Hub",
+        "description": "Freelance Hub connects top freelancers with businesses in need of specialized skills. We offer flexible work opportunities and support a global network of professionals.",
+        "contactEmail": "info@freelancehub.com",
+        "contactPhone": "555-555-5559"
+      }
+    },
+    {
+      "id": "11",
+      "title": "React/Node.js Developer",
+      "type": "Full-Time",
+      "description": "Join our team as a Full-Time React/Node.js Developer in Seattle, WA. We are looking for a talented individual with experience in full-stack development and a passion for building scalable web applications.",
+      "location": "Seattle, WA",
+      "salary": "$100K - $110K",
+      "company": {
+        "name": "Cloud Solutions",
+        "description": "Cloud Solutions is a premier provider of cloud-based services and solutions, dedicated to helping businesses transition to the cloud and achieve their digital transformation goals.",
+        "contactEmail": "hr@cloudsolutions.com",
+        "contactPhone": "555-555-5560"
+      }
+    },
+    {
+      "id": "12",
+      "title": "React Developer Intern",
+      "type": "Internship",
+      "description": "We are offering an internship opportunity for a React Developer in Chicago, IL. This is a great chance to gain hands-on experience and work with a talented team on exciting projects.",
+      "location": "Chicago, IL",
+      "salary": "$20/hr",
+      "company": {
+        "name": "Innovative Tech",
+        "description": "Innovative Tech is a forward-thinking technology company that focuses on developing cutting-edge solutions for a variety of industries.",
+        "contactEmail": "interns@innovativetech.com",
+        "contactPhone": "555-555-5561"
+      }
+    },
+    {
+      "id": "13",
+      "title": "React Front-End Developer",
+      "type": "Full-Time",
+      "description": "We are seeking a talented React Front-End Developer to join our team in Los Angeles, CA. The ideal candidate will have a passion for UI/UX design and experience with modern JavaScript frameworks.",
+      "location": "Los Angeles, CA",
+      "salary": "$85K - $95K",
+      "company": {
+        "name": "Creative Minds",
+        "description": "Creative Minds is a digital agency specializing in innovative web and mobile solutions. We value creativity, teamwork, and a user-centered approach to development.",
+        "contactEmail": "hr@creativeminds.com",
+        "contactPhone": "555-555-5562"
+      }
+    },
+    {
+      "id": "14",
+      "title": "Full-Stack React Developer",
+      "type": "Full-Time",
+      "description": "Join our team as a Full-Stack React Developer in San Diego, CA. We are looking for a talented developer with experience in both front-end and back-end development.",
+      "location": "San Diego, CA",
+      "salary": "$100K - $110K",
+      "company": {
+        "name": "Tech Innovators",
+        "description": "Tech Innovators is a leading tech company focused on delivering cutting-edge solutions to our clients. We pride ourselves on fostering innovation and creativity.",
+        "contactEmail": "jobs@techinnovators.com",
+        "contactPhone": "555-555-5563"
+      }
+    },
+    {
+      "id": "15",
+      "title": "React Native Engineer",
+      "type": "Full-Time",
+      "description": "Exciting opportunity for a React Native Engineer in Houston, TX. We are seeking a skilled individual with experience in mobile development and a passion for creating user-friendly apps.",
+      "location": "Houston, TX",
+      "salary": "$110K - $120K",
+      "company": {
+        "name": "App Gurus",
+        "description": "App Gurus is a mobile app development company specializing in creating innovative solutions for businesses. We value creativity, teamwork, and a user-centric approach.",
+        "contactEmail": "careers@appgurus.com",
+        "contactPhone": "555-555-5564"
+      }
+    },
+    {
+      "id": "16",
+      "title": "React Developer",
+      "type": "Full-Time",
+      "description": "We are looking for a talented React Developer to join our team in New York, NY. The ideal candidate will have experience with React and a passion for creating high-quality web applications.",
+      "location": "New York, NY",
+      "salary": "$90K - $100K",
+      "company": {
+        "name": "Web Wizards",
+        "description": "Web Wizards is a digital agency specializing in web development and design. We pride ourselves on delivering exceptional digital experiences for our clients.",
+        "contactEmail": "hr@webwizards.com",
+        "contactPhone": "555-555-5565"
+      }
+    },
+    {
+      "id": "17",
+      "title": "React Developer Intern",
+      "type": "Internship",
+      "description": "We are offering an internship opportunity for a React Developer in Seattle, WA. This is a great chance to gain hands-on experience and work with a talented team on exciting projects.",
+      "location": "Seattle, WA",
+      "salary": "$20/hr",
+      "company": {
+        "name": "Future Tech",
+        "description": "Future Tech is a forward-thinking technology company that focuses on developing cutting-edge solutions for a variety of industries.",
+        "contactEmail": "interns@futuretech.com",
+        "contactPhone": "555-555-5566"
+      }
+    },
+    {
+      "id": "18",
+      "title": "React Native Developer",
+      "type": "Full-Time",
+      "description": "We are seeking a talented React Native Developer to join our team in Raleigh, NC. The ideal candidate will have experience in mobile development and a passion for creating user-friendly apps.",
+      "location": "Raleigh, NC",
+      "salary": "$100K - $110K",
+      "company": {
+        "name": "Mobile Masters",
+        "description": "Mobile Masters is a leading mobile app development company, focused on creating innovative solutions for businesses worldwide.",
+        "contactEmail": "careers@mobilemasters.com",
+        "contactPhone": "555-555-5567"
+      }
+    },
+    {
+      "id": "19",
+      "title": "Senior React Developer",
+      "type": "Full-Time",
+      "description": "Join our team as a Senior React Developer in Philadelphia, PA. We are looking for an experienced developer with a strong background in React and a passion for creating high-quality web applications.",
+      "location": "Philadelphia, PA",
+      "salary": "$120K - $130K",
+      "company": {
+        "name": "Web Pros",
+        "description": "Web Pros is a leading web development company, dedicated to delivering cutting-edge solutions to our clients. We value innovation, teamwork, and a user-centric approach.",
+        "contactEmail": "hr@webpros.com",
+        "contactPhone": "555-555-5568"
+      }
+    },
+    {
+      "id": "20",
+      "title": "Junior React Developer",
+      "type": "Full-Time",
+      "description": "Exciting opportunity for a Junior React Developer in Nashville, TN. We are looking for a motivated individual with a basic understanding of front-end technologies and a desire to learn and grow.",
+      "location": "Nashville, TN",
+      "salary": "$60K - $70K",
+      "company": {
+        "name": "Tech Startups",
+        "description": "Tech Startups is an incubator for emerging tech startups, providing resources and mentorship to help new companies succeed.",
+        "contactEmail": "jobs@techstartups.com",
+        "contactPhone": "555-555-5569"
+      }
+    },
+    {
+      "id": "21",
+      "title": "React Developer",
+      "type": "Full-Time",
+      "description": "We are looking for a React Developer to join our growing team in Boston, MA. The ideal candidate will have experience with modern JavaScript frameworks and a passion for creating seamless user experiences.",
+      "location": "Boston, MA",
+      "salary": "$110K - $120K",
+      "company": {
+        "name": "Tech Innovators",
+        "description": "Tech Innovators is a leading tech company focused on delivering cutting-edge solutions to our clients. We pride ourselves on fostering innovation and creativity.",
+        "contactEmail": "jobs@techinnovators.com",
+        "contactPhone": "555-555-5570"
+      }
+    },
+    {
+      "id": "22",
+      "title": "Senior React Developer",
+      "type": "Full-Time",
+      "description": "Join our team as a Senior React Developer in Dallas, TX. We are looking for an experienced developer with a strong background in React and a passion for creating high-quality web applications.",
+      "location": "Dallas, TX",
+      "salary": "$120K - $130K",
+      "company": {
+        "name": "Web Wizards",
+        "description": "Web Wizards is a digital agency specializing in web development and design. We pride ourselves on delivering exceptional digital experiences for our clients.",
+        "contactEmail": "hr@webwizards.com",
+        "contactPhone": "555-555-5571"
+      }
+    },
+    {
+      "id": "23",
+      "title": "React Native Developer",
+      "type": "Full-Time",
+      "description": "We are seeking a talented React Native Developer to join our team in Orlando, FL. The ideal candidate will have experience in mobile development and a passion for creating user-friendly apps.",
+      "location": "Orlando, FL",
+      "salary": "$100K - $110K",
+      "company": {
+        "name": "App Gurus",
+        "description": "App Gurus is a mobile app development company specializing in creating innovative solutions for businesses. We value creativity, teamwork, and a user-centric approach.",
+        "contactEmail": "careers@appgurus.com",
+        "contactPhone": "555-555-5572"
+      }
+    },
+    {
+      "id": "24",
+      "title": "Junior React Developer",
+      "type": "Full-Time",
+      "description": "Exciting opportunity for a Junior React Developer in Charlotte, NC. We are looking for a motivated individual with a basic understanding of front-end technologies and a desire to learn and grow.",
+      "location": "Charlotte, NC",
+      "salary": "$60K - $70K",
+      "company": {
+        "name": "Tech Startups",
+        "description": "Tech Startups is an incubator for emerging tech startups, providing resources and mentorship to help new companies succeed.",
+        "contactEmail": "jobs@techstartups.com",
+        "contactPhone": "555-555-5573"
+      }
+    },
+    {
+      "id": "25",
+      "title": "Full-Stack React Developer",
+      "type": "Full-Time",
+      "description": "Join our team as a Full-Stack React Developer in San Antonio, TX. We are looking for a talented developer with experience in both front-end and back-end development.",
+      "location": "San Antonio, TX",
+      "salary": "$100K - $110K",
+      "company": {
+        "name": "Tech Innovators",
+        "description": "Tech Innovators is a leading tech company focused on delivering cutting-edge solutions to our clients. We pride ourselves on fostering innovation and creativity.",
+        "contactEmail": "jobs@techinnovators.com",
+        "contactPhone": "555-555-5574"
+      }
+    },
+    {
+      "id": "26",
+      "title": "Senior React Native Developer",
+      "type": "Full-Time",
+      "description": "Join our dynamic team as a Senior React Native Developer in Phoenix, AZ. We are looking for an experienced developer with a strong background in mobile development and a passion for creating high-quality apps.",
+      "location": "Phoenix, AZ",
+      "salary": "$120K - $130K",
+      "company": {
+        "name": "Mobile Innovators",
+        "description": "Mobile Innovators is a leading mobile app development company, focused on creating innovative solutions for businesses worldwide.",
+        "contactEmail": "careers@mobileinnovators.com",
+        "contactPhone": "555-555-5575"
+      }
+    },
+    {
+      "id": "27",
+      "title": "React Developer",
+      "type": "Full-Time",
+      "description": "We are looking for a React Developer to join our growing team in Austin, TX. The ideal candidate will have experience with modern JavaScript frameworks and a passion for creating seamless user experiences.",
+      "location": "Austin, TX",
+      "salary": "$110K - $120K",
+      "company": {
+        "name": "TechGiant Inc.",
+        "description": "TechGiant Inc. is a global leader in technology solutions and services, committed to driving innovation and delivering exceptional value to our clients.",
+        "contactEmail": "hr@techgiant.com",
+        "contactPhone": "555-555-5576"
+      }
+    },
+    {
+      "id": "28",
+      "title": "Junior React Developer",
+      "type": "Full-Time",
+      "description": "Exciting opportunity for a Junior React Developer in Raleigh, NC. We are looking for a motivated individual with a basic understanding of front-end technologies and a desire to learn and grow.",
+      "location": "Raleigh, NC",
+      "salary": "$60K - $70K",
+      "company": {
+        "name": "Tech Startups",
+        "description": "Tech Startups is an incubator for emerging tech startups, providing resources and mentorship to help new companies succeed.",
+        "contactEmail": "jobs@techstartups.com",
+        "contactPhone": "555-555-5577"
+      }
+    },
+    {
+      "id": "29",
+      "title": "React Front-End Developer",
+      "type": "Full-Time",
+      "description": "We are seeking a talented React Front-End Developer to join our team in Portland, OR. The ideal candidate will have a passion for UI/UX design and experience with modern JavaScript frameworks.",
+      "location": "Portland, OR",
+      "salary": "$85K - $95K",
+      "company": {
+        "name": "Creative Minds",
+        "description": "Creative Minds is a digital agency specializing in innovative web and mobile solutions. We value creativity, teamwork, and a user-centered approach to development.",
+        "contactEmail": "hr@creativeminds.com",
+        "contactPhone": "555-555-5578"
+      }
+    },
+    {
+      "id": "30",
+      "title": "Full-Stack React Developer",
+      "type": "Full-Time",
+      "description": "Join our team as a Full-Stack React Developer in Dallas, TX. We are looking for a talented developer with experience in both front-end and back-end development.",
+      "location": "Dallas, TX",
+      "salary": "$100K - $110K",
+      "company": {
+        "name": "Tech Innovators",
+        "description": "Tech Innovators is a leading tech company focused on delivering cutting-edge solutions to our clients. We pride ourselves on fostering innovation and creativity.",
+        "contactEmail": "jobs@techinnovators.com",
+        "contactPhone": "555-555-5579"
       }
     }
   ]
