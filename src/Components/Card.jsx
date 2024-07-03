@@ -1,12 +1,16 @@
-import React from 'react'
-//making the colur dyanamic so using this bg='bg-gray-100 
-const Card = ({children, bg='bg-yellow-100'}) => {
+import React from 'react';
+
+// Making the color dynamic using bg prop
+const Card = ({ children, bg = 'bg-blue-100' }) => {
   return (
-    // making the below code dyaamic previously it was like this "div className='bg-yellow-400 rounded-[12px] p-7"
-    <div className={`${bg} rounded-[12px] p-7 shadow-2xl overflow-auto`}>
-      {children}
+    // Container div with dynamic background color, rounded corners, padding, shadow, and updated styles
+    <div className={`${bg} rounded-xl p-8 shadow-xl overflow-hidden transform transition-transform duration-500 hover:scale-105`}>
+      {/* Adding text styles */}
+      <div className="font-sans text-gray-800">
+        {children}
+      </div>
     </div>
-  )
+  );
 }
 
-export default Card
+export default Card;

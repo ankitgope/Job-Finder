@@ -1,16 +1,20 @@
 import React from "react";
-// passing props by destructuring
+
+// Passing props by destructuring
 const HeroSection = ({
-  title = "Become a Frontend developer",
-  subTitle = "Find the best jobs thet fits you ",
+  title = "Welcome to Our Platform",
+  subTitle = "Explore opportunities and grow with us",
 }) => {
   return (
-    <section className="bg-indigo-700 py-20 mb-4 overflow-auto">
-      <div className="text-center max-w-7xl mx-auto sm:px-6 lg:px-8 flex flex-col items-center">
-        <h1 className="py-5 text-4xl font-extrabold text-white sm:text-5xl md:text-6xl">
+    <section className="bg-blue-700 py-20 mb-6 overflow-auto">
+      {/* Container for centering content */}
+      <div className="text-center max-w-7xl mx-auto sm:px-8 lg:px-10 flex flex-col items-center">
+        {/* Title with responsive text size and new font style */}
+        <h1 className="py-6 text-5xl font-semibold text-white sm:text-6xl md:text-7xl">
           {title}
         </h1>
-        <p className="my-4 text-xl text-white">{subTitle}</p>
+        {/* Subtitle with margin adjustments and new font style */}
+        <p className="my-6 text-2xl text-white font-light">{subTitle}</p>
       </div>
     </section>
   );
