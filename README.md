@@ -11,9 +11,13 @@ Loading Indicator: A spinner is shown while data is being fetched.
 
 ## Technologies Used
 React: A JavaScript library for building user interfaces.
+
 React Router: For navigation between pages.
+
 React Icons: Used for adding icons in the UI.
+
 CSS (Tailwind CSS): For styling the application.
+
 
 ## Installation
 To run this project locally, follow these steps:
