@@ -27,7 +27,7 @@ This Job Listing Application built with React allows users to browse, search, an
 To run this project locally, follow these steps:
 
 ### Clone the repository:
-**git clone** https://github.com/ankitgope/Job-portal
+**git clone:** https://github.com/ankitgope/Job-Finder
 
 ### Install dependencies:
 npm install
