@@ -1,0 +1,9 @@
+/* styles.css */
+@media (max-width: 483px) and (max-height: 572px) {
+  .hide-on-small {
+    display: none;
+  }
+  .search-bar-size{
+    width:160px
+  }
+}
