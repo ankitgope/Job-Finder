@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-gray-800 text-gray-300 py-8">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
         <div className="flex items-center mb-4 md:mb-0">
-          <h2 className="text-2xl font-bold text-white">JobPortal</h2>
+          <h2 className="text-2xl font-bold text-white">Job Finder</h2>
         </div>
         <nav className="mb-4 md:mb-0">
           <ul className="flex space-x-4">
@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="mt-4 border-t border-gray-600 pt-4 text-center">
-        <p>&copy; 2024 JobPortal. All rights reserved.</p>
+        <p>&copy; 2024 Job Finder. All rights reserved.</p>
       </div>
     </footer>
   );

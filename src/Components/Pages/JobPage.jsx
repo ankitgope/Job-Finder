@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaArrowLeft, FaMapMarker } from "react-icons/fa";
-// using params for optimization and a react router data loader previously we are doing it 
-//using useEffect and we can export the data Loader so that we use it to else where like in 
+// using params for optimization and a react router data loader previously we are doing it
+//using useEffect and we can export the data Loader so that we use it to else where like in
 //edit page in there we have to use fetch jobs
 import { useParams, useLoaderData, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
+
 
 const JobPage = ({ deleteJob }) => {
   // Destructuring params and loader data
@@ -29,7 +30,7 @@ const JobPage = ({ deleteJob }) => {
         <div className="container mx-auto py-6 px-6">
           <Link
             to="/job"
-            className="text-blue-500 hover:text-blue-600 flex items-center"
+            className="text-black hover:text-blue-600 flex items-center"
           >
             <FaArrowLeft className="mr-2" /> Back to jobs
           </Link>
@@ -56,9 +57,7 @@ const JobPage = ({ deleteJob }) => {
                   Job Description
                 </h3>
                 <p className="mb-4">{job.description}</p>
-                <h3 className="text-blue-800 text-lg font-bold mb-2">
-                  Salary
-                </h3>
+                <h3 className="text-blue-800 text-lg font-bold mb-2">Salary</h3>
                 <p className="mb-4">{job.salary} / (Year)</p>
               </div>
             </main>
@@ -75,12 +74,16 @@ const JobPage = ({ deleteJob }) => {
 
                 <div>
                   <h3 className="text-lg font-bold">Contact Email:</h3>
-                  <p className="my-2 bg-blue-100 p-2">{job.company.contactEmail}</p>
+                  <p className="my-2 bg-blue-100 p-2">
+                    {job.company.contactEmail}
+                  </p>
                 </div>
 
                 <div>
                   <h3 className="text-lg font-bold">Contact Phone:</h3>
-                  <p className="my-2 bg-blue-100 p-2">{job.company.contactPhone}</p>
+                  <p className="my-2 bg-blue-100 p-2">
+                    {job.company.contactPhone}
+                  </p>
                 </div>
               </div>
 

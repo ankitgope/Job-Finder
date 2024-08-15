@@ -1,20 +1,18 @@
 import React, { useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import ReactLogo from "./images/jobs.png";
-
 import { GiHamburgerMenu } from "react-icons/gi";
 
+//import '../../Style.css';
+
 const Navbar = () => {
-  // Get the current location object using useLocation hook from react-router-dom
   const location = useLocation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  //onclick function for hamburger menu button
+  
   const toggleMenu = () => {
     setIsMenuOpen((prevState) => !prevState);
   };
 
-  // Function to apply active link styles
   const activeLink = ({ isActive }) =>
     isActive
       ? "bg-blue-900 text-white hover:bg-blue-700 rounded-md px-3 py-2"
@@ -31,12 +29,14 @@ const Navbar = () => {
           {/* Logo and Title */}
           <div className="flex flex-1 md:items-stretch md:justify-start">
             <NavLink to="/" className="flex items-center">
-              <img src={ReactLogo} alt="job logo" className="h-12 w-auto" />
-              <span className="md:block text-white font-bold text-2xl ml-2">
+              <img src={ReactLogo} alt="job logo" className="h-12 w-auto " />
+              <span className=" hide-on-small md:block text-white font-bold text-2xl ml-2">
                 Job Finder
               </span>
             </NavLink>
           </div>
+
+          
 
           {/* Hamburger Button */}
           <div className="md:hidden">
@@ -52,28 +52,15 @@ const Navbar = () => {
           <div className="hidden md:flex md:ml-auto sm:ml-auto">
             <div className="space-x-2">
               {/* Home Link */}
-              <NavLink
-                className={activeLink}
-                to="/"
-                activeClassName="bg-blue-900"
-                exact
-              >
+              <NavLink className={activeLink} to="/">
                 Home
               </NavLink>
               {/* Jobs Link */}
-              <NavLink
-                className={activeLink}
-                to="/job"
-                activeClassName="bg-blue-900"
-              >
+              <NavLink className={activeLink} to="/job">
                 Jobs
               </NavLink>
               {/* Add Jobs Link */}
-              <NavLink
-                className={activeLink}
-                to="/add-job"
-                activeClassName="bg-blue-900"
-              >
+              <NavLink className={activeLink} to="/add-job">
                 Add Jobs
               </NavLink>
             </div>
@@ -86,8 +73,6 @@ const Navbar = () => {
             <NavLink
               to="/"
               className={`${activeLink({ isActive: true })} block mb-1`}
-              activeClassName="bg-blue-900"
-              exact
               onClick={toggleMenu}
             >
               Home
@@ -95,17 +80,14 @@ const Navbar = () => {
             <NavLink
               to="/job"
               className={`${activeLink({ isActive: true })} block mb-1`}
-              activeClassName="bg-blue-900"
               onClick={toggleMenu}
             >
               Jobs
             </NavLink>
-            
             {/* NavLink for Add Jobs */}
             <NavLink
               to="/add-job"
               className={`${activeLink({ isActive: true })} block mb-1`}
-              activeClassName="bg-blue-900"
               onClick={toggleMenu}
             >
               Add Jobs

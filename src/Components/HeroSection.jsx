@@ -6,11 +6,11 @@ const HeroSection = ({
   subTitle = "Explore opportunities and grow with us",
 }) => {
   return (
-    <section className="bg-blue-700 py-20 mb-6 overflow-auto">
+    <section className="bg-blue-700 py-20 mb-3 overflow-auto">
       {/* Container for centering content */}
       <div className="text-center max-w-7xl mx-auto sm:px-8 lg:px-10 flex flex-col items-center">
         {/* Title with responsive text size and new font style */}
-        <h1 className="py-6 text-5xl font-semibold text-white sm:text-6xl md:text-7xl">
+        <h1 className="py-8 text-5xl font-semibold text-white sm:text-6xl md:text-7xl">
           {title}
         </h1>
         {/* Subtitle with margin adjustments and new font style */}
