@@ -45,10 +45,15 @@ The backend server will be running separately, typically at http://localhost:500
 ## Project Structure
 
 **components:** Contains reusable UI components like JobListingCard, SearchBar, and Spinner.
+
 **pages:** Contains main page components like JobListing.
+
 **data:** Contains the jobs.json file with job listings data.
+
 **App.js:** Main application component.
+
 **index.js:** Entry point of the application.
+
 **server.js:** Backend server logic.
 
 ## Usage
@@ -61,15 +66,19 @@ Users can type in the search bar to filter jobs by their title. The filtered job
 
 ## Known Issues
 **Case Sensitivity:** The search bar functionality is currently case-insensitive.
+
 **Data Source:** The job listings are fetched from a local jobs.json file.
 
-##Contributing
+## Contributing
 If you want to contribute, please fork the repository and use a feature branch. Just to let you know, pull requests are welcome.
 
 ## Fork the repository.
 **Create your feature branch:** git checkout -b my-new-feature
+
 **Commit your changes:** git commit -am 'Add some feature'
+
 **Push to the branch:** git push origin my-new-feature
+
 Submit a pull request.
 
 # License
