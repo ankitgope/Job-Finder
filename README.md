@@ -84,6 +84,5 @@ Submit a pull request.
 # License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-# Contact
-For any questions or suggestions, please contact your-email@example.com.
+
 
