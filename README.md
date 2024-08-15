@@ -9,7 +9,7 @@ Search Functionality: Users can search for jobs by title using a search bar.
 Responsive Design: The application is designed to be fully responsive across various screen sizes.
 Loading Indicator: A spinner is shown while data is being fetched.
 
-##Technologies Used
+## Technologies Used
 React: A JavaScript library for building user interfaces.
 React Router: For navigation between pages.
 React Icons: Used for adding icons in the UI.
@@ -19,7 +19,7 @@ CSS (Tailwind CSS): For styling the application.
 To run this project locally, follow these steps:
 
 ### Clone the repository:
-git clone https://github.com/your-username/job-listing-app.git
+**git clone** https://github.com/ankitgope/Job-portal
 
 ### Navigate to the project directory:
 cd job-listing-app
